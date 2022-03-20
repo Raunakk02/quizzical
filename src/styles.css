@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Karla", sans-serif;
+}
+
+.start-page {
+	height: 721.6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #293264;
+	background-image: url(./images/blob-blue.png), url(./images/blob-yellow.png);
+	background-position: bottom left, top right;
+	background-repeat: no-repeat, no-repeat;
+}
+
+.start-page h1 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.start-page p {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.start-page button {
+	background: #4d5b9e;
+	padding: 16px;
+	width: 200px;
+	border: none;
+	border-radius: 15px;
+	color: white;
+}
