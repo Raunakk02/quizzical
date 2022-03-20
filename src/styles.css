@@ -5,10 +5,6 @@
 body {
 	margin: 0;
 	font-family: "Karla", sans-serif;
-}
-
-.start-page {
-	height: 721.6px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,6 +13,14 @@ body {
 	background-image: url(./images/blob-blue.png), url(./images/blob-yellow.png);
 	background-position: bottom left, top right;
 	background-repeat: no-repeat, no-repeat;
+}
+
+.start-page {
+	height: 721.6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .start-page h1 {
@@ -35,4 +39,59 @@ body {
 	border: none;
 	border-radius: 15px;
 	color: white;
+}
+
+.start-page button:hover {
+	cursor: pointer;
+	background: rgb(43, 53, 105);
+}
+
+.game-page {
+	margin: 20px 10px 20px;
+}
+
+.question {
+	margin: 20px 10%;
+}
+
+.option {
+	border: 2px solid #293264;
+	background-color: white;
+	color: #293264;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.option.selected {
+	border-color: #d6dbf5;
+	background-color: #d6dbf5;
+}
+
+.option.correct {
+	border-color: #94d7a2;
+	background-color: #94d7a2;
+}
+
+.option.incorrect {
+	border-color: #f8bcbc;
+	background-color: #f8bcbc;
+}
+
+.check-button {
+	background: #4d5b9e;
+	padding: 16px;
+	width: 200px;
+	border: none;
+	border-radius: 15px;
+	color: white;
+	margin-left: 35%;
+}
+
+.check-button:hover {
+	cursor: pointer;
+	background: rgb(43, 53, 105);
 }
